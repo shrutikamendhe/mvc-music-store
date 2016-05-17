@@ -1,0 +1,13 @@
+﻿{
+  "AppSettings": {
+    "SiteTitle": "ASP.NET MVC Music Store"
+  },
+  "DefaultAdminUsername": "Administrator@test.com",
+  "DefaultAdminPassword": "YouShouldChangeThisPassword1!",
+  "Data": {
+    "DefaultConnection": {
+      // Use a shared (and running) LocalDB database when executing in IIS e.g.
+      "Connectionstring": "Data Source=192.168.0.130;Initial Catalog=MvcMusicStore;Persist Security Info=True;User ID=mvcappuser;Password=Newuser@123"
+    }
+  }
+}
